@@ -6,7 +6,10 @@ int main() {
     cin >> letter;
     cout << "Enter a letter: " << letter << endl;
    
-    if (letter=='a' || letter=='e' || letter=='i' || letter=='o'|| letter=='u' || letter=='A' || letter=='E' || letter=='I' || letter=='O'|| letter=='U'){
+    toupper ('letter');
+    tolower ('letter');
+    
+    if (letter=='A' || letter=='E' || letter=='I' || letter=='O'|| letter=='U'){
          std::cout << "The letter " << letter << " is a vowel" << std::endl;
     }
     else {
@@ -14,4 +17,3 @@ int main() {
     }
 	return 0;
 }
-//trying to commit
